@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Python Rules ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Java Rules ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+
+# --- C++ / Arduino Rules ---
+*.o
+*.obj
+*.elf
+*.bin
+/build/
+
+# --- IDE Rules (VS Code) ---
+.vscode/
+.history/
+.DS_Store
